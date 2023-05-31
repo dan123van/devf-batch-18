@@ -1,0 +1,25 @@
+# 
+FROM node:18.16.0
+
+#
+WORKDIR /app
+
+#
+COPY package.json ./
+
+# 
+RUN npm install
+
+#
+COPY . .
+
+# 
+EXPOSE 3000
+
+#
+CMD [ "npm", "start" ]
+
+
+# La configuracion de package.json y dockerfile no son la misma 
+# Dockerfile es para la configuracion de los comandos de docker
+# y package.json configura el proyecto a nivel codigo
