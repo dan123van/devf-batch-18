@@ -26,4 +26,7 @@ console.log('5.- ', classifier.classify('chale nimodo'))
 // Agregar console.logs O/Y addDocument con cualquier 
 // cosa que se les ocurra dejen su nombre en un comentario
 
+
+console.log('Yo soy Daniel ', classifier.classify('chale que chido'))
 console.log('6.- ', classifier.classify('hoy está lloviendo')) //Anahi
+
