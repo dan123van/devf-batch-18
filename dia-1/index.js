@@ -10,6 +10,7 @@ classifier.addDocument('El trafico fue terrible hoy', 'negativo');
 classifier.addDocument('El sol es muy obscuro', 'negativo');
 classifier.addDocument('chale esta muy bueno', 'positivo');
 classifier.addDocument('chale que mal nimodo', 'negativo');
+classifier.addDocument('El día está lluvioso', 'negativo'); //Anahi
 classifier.train()
 
 console.log('1.- ', classifier.classify('hoy es un dia maravilloso'))
@@ -24,3 +25,5 @@ console.log('5.- ', classifier.classify('chale nimodo'))
 
 // Agregar console.logs O/Y addDocument con cualquier 
 // cosa que se les ocurra dejen su nombre en un comentario
+
+console.log('6.- ', classifier.classify('hoy está lloviendo')) //Anahi
