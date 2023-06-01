@@ -25,7 +25,8 @@ console.log('4.- ', classifier.classify('chale eso que te paso esta mal'))
 console.log('5.- ', classifier.classify('chale nimodo'))
 
 // Agregar console.logs O/Y addDocument con cualquier 
-// cosa que se les ocurra dejen su nombre en un comentario
+// Cosa que se les ocurra dejen su nombre en un comentario
+// Resuelvan los conflictos sin afectar el codigo de las demas personas
 
 console.log('Yo soy Daniel ', classifier.classify('chale que chido'))
 console.log('Hola Soy Miguel ', classifier.classify('esto esta interesante')) // Miguel
