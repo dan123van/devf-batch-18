@@ -3,6 +3,8 @@
 const natural = require('natural');
 const classifier = new natural.BayesClassifier();
 
+
+classifier.addDocument('Eso es todo!!', 'positivo'); // Miguel
 classifier.addDocument('Este es un buen dia', 'positivo');
 classifier.addDocument('El clima es bueno hoy', 'positivo');
 classifier.addDocument('Este es un mal dia no aguanto el dolor de cabeza', 'negativo');
@@ -28,5 +30,6 @@ console.log('5.- ', classifier.classify('chale nimodo'))
 
 
 console.log('Yo soy Daniel ', classifier.classify('chale que chido'))
+console.log('Hola Soy Miguel ', classifier.classify('esto esta interesante')) // Miguel
 console.log('6.- ', classifier.classify('hoy está lloviendo')) //Anahi
 
