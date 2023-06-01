@@ -1,0 +1,4 @@
+* Para trabajar en equipo con github nosotros tenemos 
+* Crear nueva rama por cada tarea
+* Utilizar git pull cada que comencemos nueva tarea para asegurarnos que tenemos todos los cambios
+git add, git pull, git commit
